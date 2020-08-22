@@ -1,13 +1,13 @@
 import werkzeug
 import json
-import base64
+# import base64
 from dateutil.parser import parse
-import dateutil
+# import dateutil
 import pytz
 from datetime import datetime, timedelta
 from odoo import http
 from odoo.http import request
-from odoo.addons.website.models.website import slug
+# from odoo.addons.website.models.website import slug
 import logging
 
 _logger = logging.getLogger(__name__)
@@ -73,7 +73,7 @@ class WebsiteBookingController(http.Controller):
             request.env["website.calendar"].sudo().browse(int(calendar))
         )
         return request.render(
-            "ob_website_calendar_booking.website_calendar_booking_page",
+            "website_calendar_booking.website_calendar_booking_page",
             {"calendar": my_calendar},
         )
 

@@ -1,5 +1,5 @@
 <templates id="template" xml:space="preserve">
-    <t t-name="ob_website_calendar_booking.calendar_booking_modal">
+    <t t-name="website_calendar_booking.calendar_booking_modal">
         <div class="modal fade" id="oe_website_calendar_modal">
             <div class="modal-dialog modal-content">
                 <div class="modal-header alert alert-info mb0">

@@ -5,7 +5,7 @@ var ajax = require('web.ajax');
 var core = require('web.core');
 var qweb = core.qweb;
 
-ajax.loadXML('/ob_website_calendar_booking/static/src/xml/website_calendar_booking_modal1.xml', qweb);
+ajax.loadXML('/website_calendar_booking/static/src/xml/website_calendar_booking_modal1.xml', qweb);
 
 $(document).ready(function() {
 
@@ -62,7 +62,7 @@ $(document).ready(function() {
                   alert("You cannot book for past");
                }else if (event.length == 0) {
 
-                   this.template = 'ob_website_calendar_booking.calendar_booking_modal';
+                   this.template = 'website_calendar_booking.calendar_booking_modal';
         		       var self = this;
         		       self.$modal = $( qweb.render(this.template, {}) );
         		       $('body').append(self.$modal);
