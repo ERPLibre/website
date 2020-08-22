@@ -1,6 +1,6 @@
 {
     "name": "Website Booking Calendar",
-    "version": "1.0.3",
+    "version": "12.0.1.0.0",
     "author": "Odoobiz <info@odoobiz.com>",
     "category": "Tools",
     "summary": "Allow website users to book meetings from the website",

@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import werkzeug
 import json
 import base64

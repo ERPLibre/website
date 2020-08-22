@@ -1,6 +1,5 @@
-# -*- coding: utf-8 -*-
-from openerp.http import request
-from openerp import api, fields, models
+from odoo.http import request
+from odoo import api, fields, models
 
 
 class WebsiteCalendar(models.Model):
